@@ -16,6 +16,7 @@ const wordHints = [
 ];
 const maxAttempts = 6;
 
+
 function startGame() {
     const randomWord = wordHints[Math.floor(Math.random() * wordHints.length)];
     word = randomWord.word;
