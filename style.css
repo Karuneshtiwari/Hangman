@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#word-display {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#guess-input {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
+    margin: 10px 0;
+}
+
+#attempts {
+    font-size: 18px;
+    color: #333;
+}
+
+#used-letters {
+    font-size: 18px;
+    color: #555;
+}
